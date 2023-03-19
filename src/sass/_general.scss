@@ -18,14 +18,6 @@
 	box-sizing: border-box;
 }
 
-body {
-	font-family: 'Helvetica', sans-serif;
-	font-weight: 400;
-	font-size: 16px;
-	line-height: 1.4;
-	color: var(--primary-text-color);
-}
-
 h1,h2,h3,h4,h5,h6,p,ul {
 	margin: 0;
 	padding: 0;
@@ -35,12 +27,26 @@ img {
 	max-width: 100%;
 	height: auto;
 }
+button {
+	color: inherit;
+	font-size: inherit;
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+}
 li {
 	list-style-type: none;
 }
 a {
   text-decoration: none;
   color: inherit;
+}
+body {
+	font-family: 'Helvetica', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.4;
+	color: var(--primary-text-color);
 }
 .container {
 	max-width: 1200px;
