@@ -1,0 +1,93 @@
+.header {
+	height: 80px;
+	padding-top: 19px;
+	padding-bottom: 19px;
+	border-bottom: 1px solid #5c5c5e;
+}
+
+.nav {
+	display: flex;
+	justify-content: space-between;
+}
+
+.menu {
+	display: flex;
+	justify-content: space-between;
+	gap: 20px;
+	align-items: center;
+}
+
+.basket {
+	display: flex;
+	position: relative;
+}
+
+.basket--on span {
+	display: flex;
+	position: absolute;
+	bottom: 4px;
+	right: -2px;
+	font-size: 11px;
+	width: 15px;
+	height: 15px;
+	background: var(--primary-gradient);
+	border-radius: 50%;
+	color: var(--white-color);
+	line-height: 0;
+	align-items: center;
+	justify-content: center;
+}
+
+.hero {
+	min-height: calc(100vh - 81px);
+	background-image: url(../images/hero-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom center;
+}
+
+.hero__title {
+	font-size: 96px;
+	line-height: 1.14;
+	padding-top: 230px;
+}
+
+.hero__subtitle {
+	font-size: 36px;
+	line-height: 1.14;
+	margin-bottom: 5px;
+}
+.hero__text {
+font-size: 13px;
+line-height: 15px;
+margin-bottom: 50px;
+}
+
+.hero__buy-text {
+	font-size: 13px;
+	line-height: 15px;
+	padding-top: 6px;
+}
+
+.buy-button {
+	font-family: 'Helvetica', sans-serif;
+	font-weight: 700;
+	cursor: pointer;
+	border: none;
+	background: var(--primary-gradient);
+	display: flex;
+	padding: 0;
+	text-transform: uppercase;
+	padding: 1px;
+}
+
+.buy-button__text {
+	color: var(--white-text-color);
+	padding: 20px 110px;
+}
+
+.buy-button__price {
+	color: var(--primary-text-color);
+	background-color: var(--secondary-button-bg-color);
+	padding: 20px 105px;
+}

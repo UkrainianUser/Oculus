@@ -1,0 +1,155 @@
+@font-face {
+  font-family: "Helvetica", sans-serif;
+  src: url(../fonts/helvetica.woff2);
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Helvetica-Bold", sans-serif;
+  src: url(../fonts/helvetica-bold.woff2);
+  font-style: normal;
+  font-weight: 700;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Helvetica", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.4;
+  color: var(--primary-text-color);
+}
+
+h1, h2, h3, h4, h5, h6, p, ul {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 10px;
+}
+
+:root {
+  --primary-text-color: #5c5c5e;
+  --primary-gradient: linear-gradient(180deg, #BC10D8 0%, rgba(80, 0, 250, 0.93) 100%);
+  --white-color: #ffffff;
+  --white-text-color: #f6f4f5;
+  --secondary-button-bg-color: #d9d9d9;
+}
+
+.header {
+  height: 80px;
+  padding-top: 19px;
+  padding-bottom: 19px;
+  border-bottom: 1px solid #5c5c5e;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: center;
+}
+
+.basket {
+  display: flex;
+  position: relative;
+}
+
+.basket--on span {
+  display: flex;
+  position: absolute;
+  bottom: 4px;
+  right: -2px;
+  font-size: 11px;
+  width: 15px;
+  height: 15px;
+  background: var(--primary-gradient);
+  border-radius: 50%;
+  color: var(--white-color);
+  line-height: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero {
+  min-height: calc(100vh - 81px);
+  background-image: url(../images/hero-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+}
+
+.hero__title {
+  font-size: 96px;
+  line-height: 1.14;
+  padding-top: 230px;
+}
+
+.hero__subtitle {
+  font-size: 36px;
+  line-height: 1.14;
+  margin-bottom: 5px;
+}
+
+.hero__text {
+  font-size: 13px;
+  line-height: 15px;
+  margin-bottom: 50px;
+}
+
+.hero__buy-text {
+  font-size: 13px;
+  line-height: 15px;
+  padding-top: 6px;
+}
+
+.buy-button {
+  font-family: "Helvetica", sans-serif;
+  font-weight: 700;
+  cursor: pointer;
+  border: none;
+  background: var(--primary-gradient);
+  display: flex;
+  padding: 0;
+  text-transform: uppercase;
+  padding: 1px;
+}
+
+.buy-button__text {
+  color: var(--white-text-color);
+  padding: 20px 110px;
+}
+
+.buy-button__price {
+  color: var(--primary-text-color);
+  background-color: var(--secondary-button-bg-color);
+  padding: 20px 105px;
+}/*# sourceMappingURL=main.css.map */

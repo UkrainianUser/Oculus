@@ -4,21 +4,36 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Oculus</title>
-    <link rel="stylesheet" href="./sass/index.scss" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
     <header class="header">
       <div class="container">
         <nav class="nav">
           <ul class="menu">
-            <li class="menu__item">Shop</li>
-            <li class="menu__item">Games</li>
-            <li class="menu__item">Metaverse</li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">Shop</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">Games</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">Metaverse</a>
+            </li>
           </ul>
-          <div class="logo"><img src="./images/logo.png" alt="logo" /></div>
-          <div class="basket">
+          <a class="logo" href="#"
+            ><img src="./images/logo.png" alt="logo"
+          /></a>
+          <a class="basket" href="#">
             <img src="./images/basket.svg" alt="basket" />
-          </div>
+            <!-- <span>1</span> -->
+          </a>
         </nav>
       </div>
     </header>
@@ -32,25 +47,41 @@
             For a limited time only, save $59.99 USD. Offer ends 1/19/23
           </p>
           <button class="buy-button" type="button">
-            <span>Buy now</span>
-            <span>399,99 USD</span>
+            <span class="buy-button__text">Buy now</span>
+            <span class="buy-button__price">399,99 USD</span>
           </button>
-          <p class="hero__text">Meta Quest 2 is for ages 13+</p>
+          <p class="hero__buy-text">Meta Quest 2 is for ages 13+</p>
         </div>
       </section>
       <section class="product-features">
         <div class="container">
-          <h2 class="product-features__title">Product features</h2>
-          <p class="product-features__slogan">Easy to set up and safe to use</p>
-          <ul class="product-features__list">
-            <li class="product-features__item">01 Graphics</li>
-            <li class="product-features__item">02 Controls</li>
-            <li class="product-features__item">03 Processor</li>
-            <li class="product-features__item">04 Set up your play area</li>
-            <li class="product-features__item">05 Gardian activity</li>
-            <li class="product-features__item">06 Headset casting</li>
-          </ul>
-          <img
+          <div class="product-features__titles">
+            <h2 class="product-features__title">Product features</h2>
+            <p class="product-features__slogan">
+              Easy to set up and safe to use
+            </p>
+          </div>
+          <div class="product-features__items">
+            <button class="product-features__item-button" data-batton="item-1">
+              01 Graphics
+            </button>
+            <button class="product-features__item-button" data-batton="item-1">
+              02 Controls
+            </button>
+            <button class="product-features__item-button" data-batton="item-1">
+              03 Processor
+            </button>
+            <button class="product-features__item-button" data-batton="item-1">
+              04 Set up your play area
+            </button>
+            <button class="product-features__item-button" data-batton="item-1">
+              05 Gardian activity
+            </button>
+            <button class="product-features__item-button" data-batton="item-1">
+              06 Headset casting
+            </button>
+          </div>
+          <!-- <img
             src="./images/product-features1.jpg"
             alt="men in vr helmet"
             class="product-features__images"
@@ -59,16 +90,16 @@
           <p class="product-features__text">
             With 1832 x 1920 pixels per eye, everything from multiplayer games
             and productivity apps to 360 0 videos look beyond incredible
-          </p>
-          <div class="product-features__video">
-            <video src="#"></video>
-            <img
-              class="product-features__video-poster"
-              src="./images/product-features2.jpg"
-              alt="poster"
-            />
-            <p class="product-features__text">Watch the video</p>
-            <button class="product-features__button" type="button"></button>
+          </p> -->
+          <div class="product-features__content">
+            <div class="product-features__item-content" id="item-1">
+              <img src="./images/product-features1.jpg" alt="vr helmet" />
+            </div>
+            <div class="product-features__item-content" id="item-2"></div>
+            <div class="product-features__item-content" id="item-3"></div>
+            <div class="product-features__item-content" id="item-4"></div>
+            <div class="product-features__item-content" id="item-5"></div>
+            <div class="product-features__item-content" id="item-6"></div>
           </div>
         </div>
       </section>
