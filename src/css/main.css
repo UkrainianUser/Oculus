@@ -59,6 +59,20 @@ body {
   padding: 0 10px;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  -webkit-clip-path: inset(50%);
+  clip-path: inset(50%);
+  margin: -1px;
+  white-space: nowrap;
+}
+
 :root {
   --primary-text-color: #5c5c5e;
   --primary-gradient: linear-gradient(180deg, #BC10D8 0%, rgba(80, 0, 250, 0.93) 100%);
@@ -349,4 +363,13 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-top: auto;
+}
+
+.promo {
+  margin-bottom: 110px;
+  text-align: center;
+}
+
+.promo__image {
+  margin-bottom: 30px;
 }/*# sourceMappingURL=main.css.map */
