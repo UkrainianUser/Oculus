@@ -366,10 +366,44 @@ body {
 }
 
 .promo {
-  margin-bottom: 110px;
+  max-width: 1800px;
+  margin: 0 auto 110px;
   text-align: center;
+  position: relative;
+  overflow-x: hidden;
 }
 
+.promo__bg {
+  position: absolute;
+  background: var(--primary-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 360px;
+  line-height: 0.9;
+  opacity: 0.1;
+  z-index: -1;
+  animation: line-text 7s linear 1s infinite;
+}
+
+@keyframes line-text {
+  from {
+    transform: translateX(120%);
+    transform-origin: left center;
+  }
+  to {
+    transform: translateX(-120%);
+    transform-origin: right center;
+  }
+}
 .promo__image {
+  display: inline-block;
   margin-bottom: 30px;
+}
+
+.promo .buy-button {
+  margin: 0 auto;
 }/*# sourceMappingURL=main.css.map */
