@@ -72,13 +72,13 @@
 }
 .hero__text {
 font-size: 13px;
-line-height: 15px;
+line-height: 1.5;
 margin-bottom: 50px;
 }
 
 .hero__buy-text {
 	font-size: 13px;
-	line-height: 15px;
+	line-height: 1.5;
 	padding-top: 6px;
 }
 
@@ -103,7 +103,7 @@ margin-bottom: 50px;
 .buy-button__price {
 	color: var(--primary-text-color);
 	background-color: var(--secondary-button-bg-color);
-	padding: 20px 105px;
+	padding: 20px 103px;
 }
 
 .product-features {
@@ -253,7 +253,8 @@ margin-bottom: 50px;
 }
 
 .games__item {
-	border: 1px solid var(--accent-color);
+	border: 1px solid;
+	border-image: linear-gradient(180deg, #BC10D8 0%, rgba(80, 0, 250, 0.93) 100%) 1;
 	padding: 20px;
 	display: flex;
 	flex-direction: column;
@@ -320,6 +321,199 @@ margin-bottom: 50px;
 }
 
 .promo .buy-button {
-	margin: 0 auto;
+	margin: 1px auto;
 }
 
+.complete-set {
+	margin-bottom: 100px;
+}
+
+.complete-set__title {
+	margin-bottom: 50px;
+}
+
+.complete-set__list {
+	display: grid;
+	grid-column-gap: 25px;
+	grid-template-columns: 2fr 1fr 1fr;
+	grid-template-rows: repeat(2, 1fr);
+}
+
+.complete-set__item--large {
+	grid-row: 1/-1;
+}
+
+.complete-set__img {
+	margin-bottom: 10px;
+	object-fit: cover;
+}
+
+.complete-set__subtitle {
+	margin-bottom: 10px;
+}
+
+.complete-set__slogan {
+	display: block;
+  width: 280px;
+  height: 220px;
+	font-size: 36px;
+	line-height: 1.15;
+	text-transform: uppercase;
+	background: var(--primary-gradient);
+		background-clip: text;
+		-webkit-text-fill-color: transparent;
+	margin-bottom: 10px;
+}
+
+.metaverse {
+	margin-bottom: 100px;
+}
+
+.metaverse__box{
+	position: relative;
+	background-image: url(../images/metaverse.jpg);
+	min-height: 500px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	text-align: center;
+}
+
+.metaverse__button {
+	position: absolute;
+	bottom: 80px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	font-weight: 700;
+	color: var(--white-color);
+	background: var(--primary-gradient);
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.accessories {
+	margin-bottom: 100px;
+}
+
+.accessories__title {
+	margin-bottom: 30px;
+}
+
+.accessories__slogan {
+	font-size: 36px;
+	line-height: 1.15;
+	text-transform: uppercase;
+	background: var(--primary-gradient);
+		background-clip: text;
+		-webkit-text-fill-color: transparent;
+	margin-bottom: 30px;
+}
+
+.accessories__list {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+}
+
+.accessories__item {
+	padding: 20px;
+	border: 1px solid;
+	border-image: linear-gradient(180deg, #bc10d8 0%, rgba(80, 0, 250, 0.93) 100%) 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.accessories__img {
+	margin-bottom: 10px;
+}
+
+.accessories__subtitle {
+	font-size: 24px;
+	color: var(--activ-text-color);
+	min-height: 67px;
+}
+
+.accessories__text {
+	margin-top: auto;
+	margin-bottom: 35px;
+}
+
+.accessories__price {
+	font-weight: 700;
+	line-height: 1.5;
+	color: var(--activ-text-color);
+	margin-top: auto;
+	margin-bottom: 20px;
+}
+
+.accessories__button {
+	font-weight: 700;
+	line-height: 1.5;
+	border: 1px solid;
+	border-image: linear-gradient(180deg, #bc10d8 0%, rgba(80, 0, 250, 0.93) 100%) 1;
+	padding: 6px;
+	text-transform: uppercase;
+	background: var(--primary-gradient);
+		background-clip: text;
+		-webkit-text-fill-color: transparent;
+}
+
+.feedback {
+	margin-bottom: 100px;
+}
+
+.feedback__subtitle {
+	font-size: 24px;
+	line-height: 1.4;
+	color: var(--activ-text-color);
+	margin-bottom: 10px;
+}
+
+.feedback__inner {
+	display: flex;
+	justify-content: space-between;
+	align-items: end;
+}
+
+.feedback__form {
+	flex-basis: 600px;
+}
+
+.form {
+	margin-bottom: 10px;
+	position: relative;
+}
+
+.form__input {
+	width: 100%;
+	border: none;
+	border-bottom: 1px solid #cacad6;
+	padding: 22px 70px 22px 0;
+}
+
+.form__input::placeholder {
+	font-family: 'Helvetica';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 1.15;
+}
+
+.form__button {
+	padding: 0;
+	width: 50px;
+	height: 50px;
+	background-color: var(--form-color);
+	text-transform: uppercase;
+	font-weight: 700;
+	color: var(--primary-text-color);
+	border-radius: 50%;
+	position: absolute;
+	right: 0;
+	bottom: 5px;
+}

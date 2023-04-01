@@ -331,27 +331,43 @@
         <div class="container">
           <h2 class="complete-set__title section-title">In the box</h2>
           <ul class="complete-set__list">
-            <li class="complete-set__item">
-              <img src="./images/complete-set1.jpg" alt="vr helmet" />
+            <li class="complete-set__item complete-set__item--large">
+              <img
+                class="complete-set__img"
+                src="./images/complete-set1.jpg"
+                alt="vr helmet"
+              />
               <p class="complete-set__subtitle">VR Headset</p>
             </li>
             <li class="complete-set__item">
-              <img src="./images/complete-set2.jpg" alt="vr controllers" />
+              <img
+                class="complete-set__img"
+                src="./images/complete-set2.jpg"
+                alt="vr controllers"
+              />
               <p class="complete-set__subtitle">
                 Two Touch Controllers & AA Batteries
-              </p>
-            </li>
-            <li class="complete-set__item">
-              <img src="./images/complete-set3.jpg" alt="vr cable" />
-              <p class="complete-set__subtitle">
-                Charging Cable & Power Adapter
               </p>
             </li>
             <li class="complete-set__item">
               <p class="complete-set__slogan">What's included</p>
             </li>
             <li class="complete-set__item">
-              <img src="./images/complete-set4.jpg" alt="Glasses spacer" />
+              <img
+                class="complete-set__img"
+                src="./images/complete-set3.jpg"
+                alt="vr cable"
+              />
+              <p class="complete-set__subtitle">
+                Charging Cable & Power Adapter
+              </p>
+            </li>
+            <li class="complete-set__item">
+              <img
+                class="complete-set__img"
+                src="./images/complete-set4.jpg"
+                alt="Glasses spacer"
+              />
               <p class="complete-set__subtitle">Glasses Spacer</p>
             </li>
           </ul>
@@ -360,7 +376,9 @@
       <section class="metaverse">
         <div class="container">
           <h2 class="visually-hidden">Metaverse</h2>
-          <img src="./images/metaverse.jpg" alt="women in vr helmet" />
+          <div class="metaverse__box">
+            <button class="metaverse__button">GO</button>
+          </div>
         </div>
       </section>
       <section class="accessories">
@@ -369,7 +387,11 @@
           <p class="accessories__slogan">Personalize every experience</p>
           <ul class="accessories__list">
             <li class="accessories__item">
-              <img src="./images/accessories1.png" alt="Carrying case" />
+              <img
+                class="accessories__img"
+                src="./images/accessories1.png"
+                alt="Carrying case"
+              />
               <p class="accessories__subtitle">Meta Quest 2 Carrying Case</p>
               <p class="accessories__text">
                 Protect your system–at home or away.
@@ -378,7 +400,11 @@
               <button class="accessories__button" type="button">BUY NOW</button>
             </li>
             <li class="accessories__item">
-              <img src="./images/accessories2.png" alt="Cable" />
+              <img
+                class="accessories__img"
+                src="./images/accessories2.png"
+                alt="Cable"
+              />
               <p class="accessories__subtitle">Link Cable</p>
               <p class="accessories__text">
                 Harness the power of your PC with this premium fiber-optic
@@ -388,7 +414,11 @@
               <button class="accessories__button" type="button">BUY NOW</button>
             </li>
             <li class="accessories__item">
-              <img src="./images/accessories3.png" alt="Controllers" />
+              <img
+                class="accessories__img"
+                src="./images/accessories3.png"
+                alt="Controllers"
+              />
               <p class="accessories__subtitle">Meta Quest 2 Active Pack</p>
               <p class="accessories__text">
                 A wipeable facial interface, wrist straps, and knuckle straps.
@@ -397,7 +427,11 @@
               <button class="accessories__button" type="button">BUY NOW</button>
             </li>
             <li class="accessories__item">
-              <img src="./images/accessories4.png" alt="Gift cards" />
+              <img
+                class="accessories__img"
+                src="./images/accessories4.png"
+                alt="Gift cards"
+              />
               <p class="accessories__subtitle">Meta Quest Gift Cards</p>
               <p class="accessories__text">
                 Redeemable on 350+ games and apps.
@@ -411,19 +445,26 @@
       <section class="feedback">
         <div class="container">
           <h2 class="visually-hidden">Feedback</h2>
-          <p>Get news and updates</p>
-          <form>
-            <input type="text" />
-            <button type="submit"></button>
-            <p class="feedback__text">
-              By signing up you agree to receive updates and marketing messages
-              (e.g. email, social, etc.) from Meta about Meta’s existing and
-              future products and services. You may withdraw your consent and
-              unsubscribe at any time by clicking the unsubscribe link included
-              in our messages. Your subscription is subject to the Terms and
-              Privacy Policy.
-            </p>
-          </form>
+          <h3 class="feedback__subtitle">Get news and updates</h3>
+          <div class="feedback__inner">
+            <div class="feedback__form">
+              <form class="form">
+                <input class="form__input" type="text" placeholder="E-mail" />
+                <button class="form__button" type="submit">Go</button>
+              </form>
+              <p class="feedback__text">
+                By signing up you agree to receive updates and marketing
+                messages (e.g. email, social, etc.) from Meta about Meta’s
+                existing and future products and services. You may withdraw your
+                consent and unsubscribe at any time by clicking the unsubscribe
+                link included in our messages. Your subscription is subject to
+                the Terms and Privacy Policy.
+              </p>
+            </div>
+            <a href="mailto:oculusshop@gmail.com" class="feedback__email"
+              >oculusshop@gmail.com</a
+            >
+          </div>
         </div>
       </section>
     </main>
