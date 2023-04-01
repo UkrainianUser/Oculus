@@ -212,6 +212,7 @@ body {
   text-transform: uppercase;
   background: var(--primary-gradient);
   -webkit-background-clip: text;
+          background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 2px;
 }
@@ -313,6 +314,7 @@ body {
   text-transform: uppercase;
   background: var(--primary-gradient);
   -webkit-background-clip: text;
+          background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 10px;
 }
@@ -328,6 +330,7 @@ body {
   text-transform: uppercase;
   background: var(--primary-gradient);
   -webkit-background-clip: text;
+          background-clip: text;
   -webkit-text-fill-color: transparent;
   padding: 16px 47px;
   border: 1px solid var(--accent-color);
@@ -361,6 +364,7 @@ body {
 .games__link {
   background: var(--primary-gradient);
   -webkit-background-clip: text;
+          background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-top: auto;
 }
@@ -379,7 +383,6 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  text-fill-color: transparent;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 360px;
@@ -406,4 +409,4 @@ body {
 
 .promo .buy-button {
   margin: 0 auto;
-}/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=index.css.map */
