@@ -2,7 +2,7 @@
   "name": "parcel-project-template",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://UkrainianUser.github.io/Oculus",
+  "homepage": "https://ukrainianuser.github.io/Oculus/",
   "scripts": {
     "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /UkrainianUser/Oculus/"
@@ -18,7 +18,8 @@
     "url": "https://github.com/goitacademy/parcel-project-template/issues"
   },
   "dependencies": {
-    "modern-normalize": "^1.1.0"
+    "modern-normalize": "^1.1.0",
+    "sass": "^1.59.3"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.6.0",
