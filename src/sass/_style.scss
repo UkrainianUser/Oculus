@@ -125,7 +125,7 @@ margin-bottom: 50px;
 	line-height: 1.15;
 	text-transform: uppercase;
 	background: var(--primary-gradient);
-		-webkit-background-clip: text;
+		background-clip: text;
 		-webkit-text-fill-color: transparent;
 	margin-bottom: 2px;
 }
@@ -226,7 +226,7 @@ margin-bottom: 50px;
 	line-height: 1.15;
 	text-transform: uppercase;
 	background: var(--primary-gradient);
-		-webkit-background-clip: text;
+		background-clip: text;
 		-webkit-text-fill-color: transparent;
 	margin-bottom: 10px;
 }
@@ -241,7 +241,7 @@ margin-bottom: 50px;
 	font-size: 16px;
 	text-transform: uppercase;
 	background: var(--primary-gradient);
-		-webkit-background-clip: text;
+		background-clip: text;
 		-webkit-text-fill-color: transparent;
 	padding: 16px 47px;
 	border: 1px solid var(--accent-color);
@@ -274,7 +274,7 @@ margin-bottom: 50px;
 
 .games__link {
 	background: var(--primary-gradient);
-		-webkit-background-clip: text;
+		background-clip: text;
 		-webkit-text-fill-color: transparent;
 	margin-top: auto;
 }
@@ -293,7 +293,7 @@ margin-bottom: 50px;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	background-clip: text;
-	text-fill-color: transparent;
+	// text-fill-color: transparent;
 	text-transform: uppercase;
 	font-weight: 700;
 	font-size: 360px;
