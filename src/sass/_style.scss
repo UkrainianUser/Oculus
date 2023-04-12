@@ -517,3 +517,17 @@ margin-bottom: 50px;
 	right: 0;
 	bottom: 5px;
 }
+
+.footer {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	border-top: 1px solid #5c5c5e;
+	border-bottom: 1px solid #5c5c5e;
+	margin-bottom: 44px;
+}
+
+.social {
+	display: flex;
+	gap: 20px;
+	justify-self: end;
+}
